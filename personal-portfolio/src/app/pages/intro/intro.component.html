@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <nav id="ftco-navbar" class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+            Mahtab Alam
+            </a>
+
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#home-section" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about-section" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#resume-section" class="nav-link">Resume</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#project-section" class="nav-link">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section id="home-section" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <!-- Left Content -->
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <span class="subheading">
+                        Hello!
+                    </span>
+                    <h1 class="hero-title">
+                        I'm <span>Mahtab Alam</span>
+                    </h1>
+                    <div class="typing-text">
+                        {{ currentText }}
+                    </div>
+                    <h2 class="hero-subtitle">
+                        Senior Software Engineer
+                    </h2>                    
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <img
+                        src="/assets/images/msEnhane1.PNG"
+                        alt="Mahtab Alam"
+                        class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="row d-flex align-items-stretch">
+                <!-- <div class="row d-flex"> -->
+                    <div class="col-md-6 col-lg-5 d-flex">
+                        <div class="img-about img d-flex align-items-stretch">
+                            <div class="overlay">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                    <div class="about-img">
+                                        <img [src]="'assets/images/alam-profile.png'"
+                                        class="img-fluid rounded b-shadow-a"
+                                        alt="Profile Picture">
+                                    </div>
+                                    </div>
+                                    <!-- Details next to profile image -->
+                                    <div class="col-sm-6 col-md-7">
+                                    <div class="about-info">
+                                        <p><span class="title-s">Name: </span> <span>Mahtab Alam</span></p>
+                                        <p><span class="title-s">Job Role: </span> <span>Senior Software Engineer</span></p>
+                                        <p><span class="title-s">Experience: </span> <span>5 Years</span></p>
+                                        <p><span class="title-s">Address: </span> <span>Bihar, India</span></p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-mf">
+                                    <p class="title-s">Skills</p>
+
+                                    <span>PHP / Yii2</span> <span class="pull-right-progress">90%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar"
+                                            style="width: 90%"
+                                            aria-valuenow="90"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>MySQL / MongoDB</span> <span class="pull-right-progress">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar"
+                                            style="width: 85%"
+                                            aria-valuenow="85"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>JavaScript / jQuery</span> <span class="pull-right-progress">80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar"
+                                            style="width: 80%"
+                                            aria-valuenow="80"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>Angular</span> <span class="pull-right-progress">65%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar"
+                                            style="width: 65%"
+                                            aria-valuenow="65"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>REST API / Third Party Integration</span> <span class="pull-right-progress">90%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar"
+                                            style="width: 90%"
+                                            aria-valuenow="90"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+
+                                <h1 class="big">About</h1>
+                                <h2 class="mb-4">About Me</h2>
+
+                                <p>
+                                   Software Engineer with 5+ years of experience developing scalable web applications using PHP, Yii2,Cakephp,Laravel,Angular, MySQL, and MongoDB.
+                                    Proven expertise in CRM development, API integrations, Insurance Platforms, Dialer Solutions, and enterprise applications,
+                                    with strong experience in requirement analysis, UAT, and end-to-end product delivery.
+                                </p>
+
+                                <ul class="about-info mt-4 px-md-0 px-2">
+
+                                    <li class="d-flex">
+                                        <span>Profile:</span>
+                                        <span>Senior Software Engineer &amp; PHP Developer</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Domain:</span>
+                                        <span>Insurance, CRM, FinTech, Lead Management &amp; Customer Engagement</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Education:</span>
+                                        <span>Bachelor of Engineering</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Language:</span>
+                                        <span>English, Hindi</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Backend:</span>
+                                        <span>PHP,CAkePhp,Yii2,Laravel, REST API Development</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Frontend:</span>
+                                        <span>Angular, JavaScript, jQuery, HTML5, CSS3 &amp; Bootstrap</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Database:</span>
+                                        <span>MySQL &amp; MongoDB</span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Other Skills:</span>
+                                        <span>API Integration, UAT, Requirement Analysis, Git, Postman &amp; JIRA </span>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        <span>Projects:</span>
+                                        <span>CRM Systems, Insurance Portals, Dialer Integrations &amp; Lead Management Platforms</span>
+                                    </li>
+
+                                    <!-- <li class="d-flex">
+                                        <span>Interest:</span>
+                                        <span>Web Development, Problem Solving &amp; Learning New Technologies</span>
+                                    </li> -->
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+                        <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                            <div class="text">
+                                <p class="mb-4">
+                                    <span class="number">10</span> <span>+</span>
+                                    <span>&nbsp; Projects completed</span>
+                                </p>
+                                <p><a href="https://www.linkedin.com/in/mahtab-alam-5212a3189?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+        <div class="container">
+
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-10 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Resume</h1>
+                    <h2 class="mb-4">Resume</h2>
+                    <p>
+                        A Passionate Software Engineer with 5+ years of experience building scalable web applications, CRM solutions, insurance platforms, and API integrations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <h1 class="big-4">Experience</h1>
+                <div class="underline"></div>
+            </div>
+
+            <br />
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">Jan 2025 -Present</span>
+                        <h2>Senior Software Engineer</h2>
+                        <span class="position">Interbit Solutions Pvt Ltd.</span>
+
+                        <ul> <li>Developed and maintained CRM applications for fund management and business operations.</li> <li>Designed and integrated REST APIs with third-party systems and internal services.</li> <li>Collaborated with business stakeholders for requirement analysis, UAT, and production deployments.</li> <li>Optimized application performance, database queries, and backend workflows for scalability.</li> </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">Aug 2021 - Dec 2024</span>
+                        <h2>Software Engineer</h2>
+                        <span class="position">Evervent Pvt Ltd</span>
+
+                        <ul> <li>Built and maintained Health and Motor Insurance modules with insurer API integrations.</li> <li>Developed Lead Management and CRM systems to streamline customer acquisition and sales processes.</li> <li>Integrated dialer solutions, third-party APIs, and automated business workflows.</li> <li>Participated in requirement gathering, UAT coordination, issue resolution, and production support.</li> </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <br />
+            <br />
+
+            <div class="row">
+                <h1 class="big-4">Education</h1>
+                <div class="underline"></div>
+            </div>
+
+            <br />
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2014-2018</span>
+                        <h2>Bachelor of Engineering</h2>
+                        <span class="position">Visvesvaraya Technological University</span>
+                        <p class="mt-4">Grade: First Class with Distinction.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2012-2013</span>
+                        <h2>Higher Secondary School</h2>
+                        <span class="position">Army Public School</span>
+                        <p class="mt-4">Grade: First Class with Distinction.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-center ftco-animate">
+                    <p>
+                        <a href="assets/resume.pdf"
+                        download
+                        class="btn btn-primary py-4 px-5">
+                            Download CV
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project-section" class="projects-section">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h1 class="section-bg-title">Projects</h1>
+                <h2 class="section-title">Projects</h2>
+                <p>
+                    Some of the projects I have worked on using PHP, Yii2, Angular and Insurance APIs.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="project-card">
+
+                        <img
+                            src="/assets/images/proj_1.jpg"
+                            alt="Insurance Portal"
+                            class="project-image">
+
+                        <div class="project-content">
+
+                            <h4>Insurance Broker Portal</h4>
+
+                            <p>
+                                Developed a complete insurance broker portal with
+                                policy management, lead management and API integrations.
+                            </p>
+
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="project-card">
+
+                        <img
+                            src="/assets/images/proj_2.jpg"
+                            alt="CRM"
+                            class="project-image">
+
+                        <div class="project-content">
+
+                            <h4>CRM Application</h4>
+
+                            <p>
+                                Developed and maintained CRM modules using Yii2,
+                                Angular and MongoDB.
+                            </p>
+
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="project-card">
+
+                        <img
+                            src="/assets/images/proj_3.jpg"
+                            alt="API Integration"
+                            class="project-image">
+
+                        <div class="project-content">
+
+                            <h4>Insurance API Integration</h4>
+
+                            <p>
+                                Integrated Health and Motor Insurance APIs
+                                with policy issuance and premium calculations.
+                            </p>
+
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <section id="contact-section" class="contact-section">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h1 class="section-bg-title">Contact</h1>
+                <h2 class="section-title">Contact Me</h2>
+
+                <p>
+                    Feel free to reach out for job opportunities, freelance work,
+                    or project discussions.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <h5>Address</h5>
+
+                        <p>DarBhanga, Bihar, India</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📞
+                        </div>
+
+                        <h5>Phone</h5>
+
+                        <p>
+                            <a href="tel:+917903304799">
+                                +91 7903304799
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            ✉️
+                        </div>
+
+                        <h5>Email</h5>
+
+                        <p>
+                            <a href="mailto:mahtabalam7277@gmail.com">
+                                mahtabalam7277&#64;gmail.com
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📄
+                        </div>
+
+                        <h5>Resume</h5>
+
+                        <p>
+                            <a href="/assets/resume/Mahtab-Alam-Resume.pdf" download>
+                                Download CV
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+
+                <h4 class="mb-4">
+                    Have a Question?
+                </h4>
+
+                <a
+                    href="mailto:mahtabalam7277&#64;gmail.com"
+                    class="btn btn-primary btn-lg">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links mt-5">
+
+                <a href="https://www.linkedin.com/in/mahtab-alam-5212a3189?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                    LinkedIn
+                </a>
+
+                <!-- <a href="https://github.com" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://youtube.com" target="_blank">
+                    YouTube
+                </a> -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center">
+
+                <p class="mb-2">
+                    © {{ currentYear }} Mahtab Alam. All Rights Reserved.
+                </p>
+
+                <p class="footer-text">
+                    Built with Angular, Bootstrap and ❤️ by Mahtab Alam
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+
+</body>
+</html>
