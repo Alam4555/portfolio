@@ -665,3 +665,9 @@
 .contact-section {
     padding: 100px 0;
 }
+
+@media (max-width: 991px) {
+    .hero-image {
+        display: none;
+    }
+}
