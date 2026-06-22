@@ -671,3 +671,16 @@
         display: none;
     }
 }
+
+.hero-section {
+  min-height: 100vh;
+}
+
+/* Mobile fix */
+@media (max-width: 991.98px) {
+  .hero-section {
+    min-height: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+}
